@@ -1,8 +1,7 @@
-# Kenobi CTF Write‑up (Beginner Friendly)
+# Kenobi
 
 ## 1. Overview
-- **Box name:** Kenobi  
-- **Difficulty:** Easy  
+
 - **Objective:** Capture `user.txt` and `root.txt` flags.  
 - **Attack path summary:**  
   SMB enumeration → ProFTPD misconfiguration (mod_copy) → NFS mount → SSH with stolen key → PATH hijack in custom SUID binary → root.
